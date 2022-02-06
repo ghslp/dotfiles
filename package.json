@@ -1,0 +1,20 @@
+{
+  "name": "dotfiles",
+  "description": "My dotfiles (WIP)",
+  "author": {
+    "name": "Grant Heaslip",
+    "email": "g@hslp.ca",
+    "url": "https://g.hslp.ca/"
+  },
+  "license": "MIT",
+  "repository": "ghslp/dotfiles",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "eslint": "eslint . --ext js,ts"
+  },
+  "devDependencies": {
+    "@ghslp/eslint-config": "^0.1.0"
+  }
+}
